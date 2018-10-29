@@ -23,52 +23,80 @@
         }
     </style> -->
 
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script src="https://apis.google.com/js/api.js"></script> -->
+    <script src="js/script.js"></script>
+
   </head>
 
   <body>
 
-      <header>
+        <header>
           <p>hello world</p>
-      </header>
+        </header>
 
 
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                <a href="#" class="navbar-brand">David Moore</a>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a href="#" class="navbar-brand">David Moore</a>
 
-                <button class="navbar-toggler" type="button"
-                data-toggle="collapse"
-                data-target="#collapsemenu"
-                aria-expanded="false">
-                    <!-- <i class="fa fa-bars"></i>-->
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button"
+            data-toggle="collapse"
+            data-target="#collapsemenu"
+            aria-expanded="false">
+                <!-- <i class="fa fa-bars"></i>-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="collapsemenu">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Form</a>
-                        </li>
-                    </ul>
+            <div class="collapse navbar-collapse" id="collapsemenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Form</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <article>
+
+                            <!-- here is where I want to place an image from a google link -->
+                            <script>readDB();</script>
+                            <img src="" alt="">
+
+
+                            <h3>Heading h3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime incidunt necessitatibus illum ratione eos enim numquam rerum culpa nobis hic deleniti pariatur, dolorem delectus architecto dolor nesciunt animi, sapiente quibusdam.</p>
+                        </article>
+
+                        <article>
+                            <h3>Heading h3</h3>
+                            <p>description text that we can use for things and stuff</p>
+                        </article>
+
+                        <article>
+                            <h3>Heading h3</h3>
+                            <p>description text that we can use for things and stuff</p>
+                        </article>
+                    </div>
                 </div>
+            </div>
 
-            </nav>
+        </div>
 
+        <!-- TODO: make footer bootstrap -->
+        <footer>
+            <p>powered by GitHub Pages</p>
+        </footer>
 
-
-
-    <div id="content">
-
-    </div>
-
-    <footer>
-        <p>powered by GitHub Pages</p>
-    </footer>
-
-  </body>
-<html>
+    </body>
+</html>
