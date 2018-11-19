@@ -11,3 +11,9 @@ body{
 #content img{
   border:solid;
 }
+footer{
+  background-color: grey;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 25px;
+}
