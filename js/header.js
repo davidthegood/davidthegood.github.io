@@ -1,4 +1,5 @@
 function makeHeader(){
+    alert(location.pathname);
     var headerHTML = "<div class=\"container-fluid\">"+
       "<div class=\"row\"\>"+
         "<div class=\"col-xl-12\">"+
