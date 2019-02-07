@@ -27,7 +27,7 @@ function makeHeader(){
                         "<a href=\"index.html\" class=\"nav-link active\">Home</a>"+
                     "</li>"+
                     "<li class=\"nav-item\">"+
-                        "<a href=\"#\" class=\"nav-link\">About</a>"+
+                        "<a href=\"about.html\" class=\"nav-link\">About</a>"+
                     "</li>"+
                     "<li class=\"nav-item\">"+
                         "<a href=\"#\" class=\"nav-link\">Form</a>"+
