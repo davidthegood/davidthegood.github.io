@@ -1,15 +1,7 @@
 function makeHeader(){
     alert(location.pathname);
 
-    switch(location.pathname){
-        case "/index.html":
-            // use jQuery to place the active class on the active page
-            $('#homeNav').toggleClass('active');
-            break;
-        case "/about.html":
-            $('#aboutNav').toggleClass('active');
-            break;
-    }
+
 
     var headerHTML = "<div class=\"container-fluid\">"+
       "<div class=\"row\"\>"+
@@ -52,4 +44,14 @@ function makeHeader(){
       "</div>";
 
       $('body').append(headerHTML);
+
+      switch(location.pathname){
+          case "/index.html":
+              // use jQuery to place the active class on the active page
+              $('#homeNav').toggleClass('active');
+              break;
+          case "/about.html":
+              $('#aboutNav').toggleClass('active');
+              break;
+      }
 }
