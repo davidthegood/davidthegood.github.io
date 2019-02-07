@@ -1,16 +1,10 @@
 <html>
   <head>
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-
-
-
 
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -32,126 +26,78 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <!-- <script src="https://apis.google.com/js/api.js"></script> -->
-    <script src="js/script.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
 
   </head>
 
   <body>
 
+    <script>makeHeader();</script>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-12">
-          <header>
-              <center>
-                <img class="img-fluid" src="https://docs.google.com/drawings/d/e/2PACX-1vTMmMei0LpZNDdaPfdmn0VUnilF6pxfwbPzDAP5D0EKA6EBaXxth5oKoA0eu9-_62W5JW0OfYqGOozP/pub?w=985&amp;h=184">
-              </center>
-          </header>
-        </div>
-      </div>
+        <div id="content">
+            <div class="row">
 
-      <div class="row">
-        <div class="col-xl-12">
-          <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
-
-            <a href="#" class="navbar-brand">David Moore</a>
-
-            <button class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapsemenu"
-                    aria-expanded="false">
-
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="collapsemenu">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Form</a>
-                    </li>
-                </ul>
-            </div>
-
-          </nav>
-        </div>
-      </div>
-
-        <div class="row">
-
-          <div class="col-sm-12 col-xl-4">
-            <div class="media p-3 content-item">
-              <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
-              <div class="media-body">
-                <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
-                <p style="background-color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="col-sm-12 col-xl-4">
+                <div class="media p-3 content-item">
+                  <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
+                  <div class="media-body">
+                    <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
+                    <p style="background-color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-sm-12 col-xl-4">
-            <div class="media  p-3 content-item">
-              <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
-              <div class="media-body">
-                <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="col-sm-12 col-xl-4">
+                <div class="media  p-3 content-item">
+                  <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
+                  <div class="media-body">
+                    <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-sm-12 col-xl-4">
-            <div class="media  p-3 content-item">
-              <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
-              <div class="media-body">
-                <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
-                <center>
-                  <img class="img-fluid" src="https://img.ifcdn.com/images/01ac259e5a4ae036efcbd4fb82974839d8f0763a7713cc25cb44fccdb8065dfe_1.jpg" alt="">
-                </center>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="col-sm-12 col-xl-4">
+                <div class="media  p-3 content-item">
+                  <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
+                  <div class="media-body">
+                    <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
+                    <center>
+                      <img class="img-fluid" src="https://img.ifcdn.com/images/01ac259e5a4ae036efcbd4fb82974839d8f0763a7713cc25cb44fccdb8065dfe_1.jpg" alt="">
+                    </center>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div><!-- end of row -->
+            </div><!-- end of row -->
 
-        <div class="row">
-          <div class="col-sm-12 col-xl-6">
-            <div class="media  p-3 content-item">
-              <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
-              <div class="media-body">
-                <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="row">
+              <div class="col-sm-12 col-xl-6">
+                <div class="media  p-3 content-item">
+                  <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
+                  <div class="media-body">
+                    <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-sm-12 col-xl-6">
-            <div class="media  p-3 content-item">
-              <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
-              <div class="media-body">
-                <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="col-sm-12 col-xl-6">
+                <div class="media  p-3 content-item">
+                  <img src="https://docs.google.com/drawings/d/e/2PACX-1vS3EAZcBDbDkUDmW08oH0pf58UcPThxViInrVew5a3aBp1k5LJB9P1QUATUXVf9jbTKqIL3TpX11F5q/pub?w=144&amp;h=104" alt="John Doe" class="mr-3 mt-3 align-self-start" style="width:60px;">
+                  <div class="media-body">
+                    <h4><a href="#">John Doe </a><small><i>Posted on February 19, 2016</i></small></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div><!-- end of row -->
+            </div><!-- end of row -->
+        </div><!-- end content -->
 
 
+        <script>makeFooter();</script>
 
-
-        <div class="row">
-          <div class="col-xl-12">
-            <footer>
-                <p>powered by GitHub Pages</p>
-            </footer>
-          </div>
-        </div>
-
-
-    </div> <!-- end container div -->
+        </div> <!-- end container div -->
     </body>
 </html>
