@@ -1,5 +1,16 @@
 function makeHeader(){
     alert(location.pathname);
+
+    switch(location.pathname){
+        case "/index.html":
+            // use jQuery to place the active class on the active page
+            $('#homeNav').toggleClass('active');
+            break;
+        case "/about.html":
+            $('#aboutNav').toggleClass('active');
+            break;
+    }
+
     var headerHTML = "<div class=\"container-fluid\">"+
       "<div class=\"row\"\>"+
         "<div class=\"col-xl-12\">"+
@@ -25,13 +36,13 @@ function makeHeader(){
             "<div class=\"collapse navbar-collapse\" id=\"collapsemenu\">"+
                 "<ul class=\"navbar-nav ml-auto\">"+
                     "<li class=\"nav-item\">"+
-                        "<a href=\"index.html\" class=\"nav-link active\">Home</a>"+
+                        "<a id=\"homeNav\" href=\"index.html\" class=\"nav-link active\">Home</a>"+
                     "</li>"+
                     "<li class=\"nav-item\">"+
-                        "<a href=\"about.html\" class=\"nav-link\">About</a>"+
+                        "<a id=\"aboutNav\" href=\"about.html\" class=\"nav-link\">About</a>"+
                     "</li>"+
                     "<li class=\"nav-item\">"+
-                        "<a href=\"#\" class=\"nav-link\">Form</a>"+
+                        "<a id=\"formNav\" href=\"#\" class=\"nav-link\">Form</a>"+
                     "</li>"+
                 "</ul>"+
             "</div>"+
